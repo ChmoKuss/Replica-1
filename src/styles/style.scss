@@ -1,0 +1,28 @@
+//styles
+@import "./vars";
+@import "./config";
+@import "./top";
+@import "./section-one";
+@import"./section-card__head";
+@import"./section_news";
+@import"./section-about";
+@import"./_footer.scss";
+@import"./_adaptive.scss";
+
+//fonts
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Raleway-500.woff2") format("woff2"),
+       url("../fonts/Raleway-500.woff") format("woff");
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Raleway-700.woff2") format("woff2"),
+       url("../fonts/Raleway-700.woff") format("woff");
+}
